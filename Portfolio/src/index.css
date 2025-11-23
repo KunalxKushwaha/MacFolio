@@ -1,25 +1,23 @@
-@import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
-/* Theme variables */
+@import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import "tailwindcss";
+
+
+html,
+body {
+  width: 100dvw;
+  overflow: hidden;
+  height: 100dvh;
+  background-image: url("/images/wallpaper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 @theme {
   --font-georama: "Georama", sans-serif;
   --font-roboto: "Roboto Mono", monospace;
   --breakpoint-3xl: 1920px;
-}
-
-@layer base {
-  html,
-  body {
-    width: 100dvw;
-    overflow: hidden;
-    height: 100dvh;
-    background-image: url("/images/wallpaper.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-family: var(--font-georama);
-  }
 }
 
 @utility flex-center {
