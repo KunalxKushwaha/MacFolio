@@ -4,12 +4,12 @@ import dayjs from 'dayjs';
 
 const Navbar = () => {
   return (
-   <nav className='font-georama'>
+   <nav>
      <div>
       <img src="/images/logo.svg" alt="logo" />
       <p className='font-bold font-georama'>Kunal's Portfolio</p>
 
-      <ul className='font-georama'>
+      <ul>
         {navLinks.map(({id,name}) => (
             <li key={id}>
                 <p>{name}</p>
