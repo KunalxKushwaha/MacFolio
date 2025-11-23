@@ -7,7 +7,7 @@ const Navbar = () => {
    <nav>
      <div>
       <img src="/images/logo.svg" alt="logo" />
-      <p className='font-bold font-georama'>Kunal's Portfolio</p>
+      <p className="font-mac text-[16px] font-bold tracking-tight">Kunal's Portfolio</p>
 
       <ul>
         {navLinks.map(({id,name}) => (
@@ -28,7 +28,7 @@ const Navbar = () => {
 </ul>
 
 
-      <time> {dayjs().format('ddd MMM D h:mm A')}</time>
+      <time>{dayjs().format('ddd MMM D h:mm A')}</time>
     </div>
    </nav>
   )
