@@ -55,7 +55,7 @@ body {
 }
 
     ul {
-      @apply flex items-center gap-5 max-sm:hidden;
+      @apply flex items-center gap-5 max-sm:hidden font-medium;
 
       p {
         @apply text-sm cursor-pointer hover:underline transition-all;
