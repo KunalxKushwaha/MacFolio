@@ -3,17 +3,25 @@ import React, { useRef } from 'react'
 
 const WindowWrapper = (Component, windowKey) => {
     const Wrapped = (props) => {
-        const {fuosWindow, windows} = useWindowStore();
-        const {isOpen, zIndex} = window[windowKey];
+        const {focusWindow, windows} = useWindowStore();
+        const {isOpen, zIndex} = windows[windowKey];
         const ref = useRef(null);
 
-        return
+        return (
+            <section 
+        id={windowKey} 
+        ref={ref} 
+        style={{zIndex}}
+        className='absolute'
+        >
+            <Component {...props}/>
+        </section>
+        )
     }
-  return (
-    <div>
-      
-    </div>
-  )
+
+    Wrapped.displayName = `WindowWrapper(${Component.displayName || Component.name || "Component"})`;
+
+  return Wrapped;
 }
 
-export default WindowWrapper
+export default WindowWrapper;
