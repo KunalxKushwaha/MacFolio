@@ -4,10 +4,7 @@ import Welcome from '#components/Welcome'
 import React from 'react'
 import { Draggable } from 'gsap/Draggable'
 import gsap from 'gsap'
-import Terminal from '#windows/Terminal'
-import Safari from '#windows/Safari'
-import Resume from '#windows/Resume'
-import Finder from '#windows/Finder'
+import { Terminal, Safari, Resume, Finder, TextFile } from '#windows'
 gsap.registerPlugin(Draggable);
 
 const App = () => {
@@ -21,6 +18,7 @@ const App = () => {
       <Safari/>
       <Resume/>
       <Finder/>
+      <TextFile/>
     </main>
   )
 }
