@@ -283,21 +283,18 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "Resume Builder Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "Resumate is a full-stack, modern, AI-enhanced Resume Builder Web Application that allows users to design, customize, and download professional resumes using multiple templates. The platform offers a seamless experience with theme customization, template switching, resume sharing, background removal, and more.",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "resumate.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",

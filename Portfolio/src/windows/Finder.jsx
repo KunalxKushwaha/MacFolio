@@ -9,6 +9,15 @@ import React from 'react'
 const Finder = () => {
 
     const {activeLocation, setActiveLocation} = useLocationStore();
+
+    const renderList = (items) => items.map((item) => (
+                        <li key={item.id} className={clsx(item.id === activeLocation.id ? 'active': 'not-active')} onClick={() => setActiveLocation(item)}>
+                            <img src={item.icon} alt={item.name} className='w-4' />
+                            <p className='text-sm font-medium truncate'> 
+                                {item.name}
+                            </p>
+                        </li>
+                    ))
   return (
     <>
       <div id='window-header'>
@@ -21,20 +30,15 @@ const Finder = () => {
             <div>
                 <h3>Favorites</h3>
                 <ul>
-                    {Object.values(locations).map((item) => (
-                        <li key={item.id} className={clsx(item.id === activeLocation.id ? 'active': 'not-active')} onClick={() => setActiveLocation(item)}>
-                            <img src={item.icon} alt={item.name} className='w-4' />
-                            <p className='text-sm font-medium truncate'> 
-                                {item.name}
-                            </p>
-                        </li>
-                    ))}
+                    {renderList(Object.values((locations)))}
                 </ul>
             </div>
 
             <div>
                 <h3>Work</h3>
-                <ul>...</ul>
+                <ul>
+                    {renderList(locations.work.children)}
+                </ul>
             </div>
         </div>
       </div>
