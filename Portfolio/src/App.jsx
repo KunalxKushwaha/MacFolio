@@ -6,6 +6,7 @@ import { Draggable } from 'gsap/Draggable'
 import gsap from 'gsap'
 import { Terminal, Safari, Resume, Finder, TextFile, ImageWindow, Contact } from '#windows'
 import Home from '#components/Home'
+import Gallery from '#windows/Gallery'
 gsap.registerPlugin(Draggable);
 
 const App = () => {
@@ -18,11 +19,13 @@ const App = () => {
       <Terminal/>
       <Safari/>
       <Resume/>
+      <Gallery/>
       <Finder/>
       <TextFile/>
       <ImageWindow/>
       <Contact/>
       <Home/>
+      
     </main>
   )
 }

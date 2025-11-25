@@ -186,21 +186,31 @@ const photosLinks = [
 ];
 
 const gallery = [
+ 
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/Kunal2.jpeg",
+    
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/Kunal3.jpeg",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/Kunal4.jpeg",
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/Kunal5.jpeg",
+  },
+  {
+    id: 5,
+    img: "/images/Kunal6.jpeg",
+  },
+  {
+    id: 6,
+    img: "/images/Kunal7.jpeg",
   },
 ];
 
@@ -239,7 +249,7 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "An advanced **Full-Stack AI SaaS Application** offering multiple AI-powered tools to boost productivity and creativity. The Platform is build with React + Vite (Frontend), Node.js/Express (backend), and PostgreSQL (NeonDB)",
+            "An advanced **Full-Stack AI SaaS Application** offering multiple AI-powered tools to boost productivity and creativity. The Platform is build with React + Vite (Frontend), Node.js/Express (backend), and PostgreSQL (NeonDB)"
           ],
         },
         {
