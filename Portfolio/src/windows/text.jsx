@@ -3,35 +3,6 @@ import WindowWrapper from "#hoc/WindowWrapper";
 import useWindowStore from "#store/window";
 import WindowControls from "#components/WindowControls";
 
-// export function TextFileWindow() {
-//   const windowData = useWindowStore((state) => state.windows.txtfile.data);
-
-//   if (!windowData) return null;
-
-//   const { name, image, subtitle, description } = windowData;
-
-//   return (
-//     <div className="text-file-window p-4 overflow-auto">
-//       <h1 className="text-xl font-bold mb-2">{name}</h1>
-//       {image && (
-//         <img
-//           src={image}
-//           alt={name}
-//           className="max-w-full h-auto mb-2"
-//         />
-//       )}
-//       {subtitle && <h2 className="text-md font-semibold mb-4">{subtitle}</h2>}
-//       {description && description.length > 0 && (
-//         <div className="description space-y-2 text-sm leading-relaxed">
-//           {description.map((para, index) => (
-//             <p key={index} dangerouslySetInnerHTML={{ __html: para }} />
-//           ))}
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
-
 const Text = () => {
   const {windows} = useWindowStore();
   const data = windows.txtfile?.data;

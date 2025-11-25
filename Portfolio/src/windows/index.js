@@ -3,6 +3,7 @@ import Resume from './Resume.jsx';
 import Safari from './Safari.jsx';
 import Terminal from './Terminal.jsx';
 import TextFile from './text.jsx';
+import ImageWindow from './Image.jsx';
 
 export {
   Finder,
@@ -10,4 +11,5 @@ export {
   Safari,
   Terminal,
   TextFile,
+  ImageWindow,
 };
