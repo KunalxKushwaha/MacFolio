@@ -225,7 +225,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "AI SAAS Application",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -233,21 +233,18 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "AI SAAS.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "An advanced **Full-Stack AI SaaS Application** offering multiple AI-powered tools to boost productivity and creativity. The Platform is build with React + Vite (Frontend), Node.js/Express (backend), and PostgreSQL (NeonDB)",
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "AI-Tools.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
