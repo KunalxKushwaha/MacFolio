@@ -139,7 +139,7 @@ const socials = [
     text: "Platform",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "https://www.instagram.com/psychic.kunal.45",
   },
   {
     id: 3,
@@ -153,7 +153,7 @@ const socials = [
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/kunal-kushwaha-a25810294",
   },
 ];
 
