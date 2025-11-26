@@ -6,10 +6,8 @@ import { Document, Page, pdfjs } from 'react-pdf';
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.mjs',
-  import.meta.url,
-).toString();
+pdfjs.GlobalWorkerOptions.workerSrc =
+  `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const Resume = () => {
   return (
@@ -20,7 +18,7 @@ const Resume = () => {
       <a href="files/Resume2.pdf" download className='cursor-pointer' title='Download Resume'>
       <Download className='icon'/></a>
     </div>
-    <Document file="files/Resume2.pdf">
+    <Document file="/files/Resume2.pdf">
       <Page pageNumber={1} renderTextLayer renderAnnotationLayer/>
      
     </Document>
