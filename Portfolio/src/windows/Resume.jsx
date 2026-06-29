@@ -14,10 +14,10 @@ const Resume = () => {
     <div id='window-header'>
       <WindowControls target="resume"/>
       <h2>Resume.pdf</h2>
-      <a href="files/Resume2.pdf" download className='cursor-pointer' title='Download Resume'>
+      <a href="files/KunalxKushwaha3.pdf" download className='cursor-pointer' title='Download Resume'>
       <Download className='icon'/></a>
     </div>
-    <Document file="files/Resume2.pdf">
+    <Document file="files/KunalxKushwaha3.pdf">
       <Page pageNumber={1} renderTextLayer renderAnnotationLayer/>
      
     </Document>
