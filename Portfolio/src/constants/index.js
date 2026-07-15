@@ -235,7 +235,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "AI SAAS Application",
+      name: "PostPilot",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -243,32 +243,32 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI SAAS.txt",
+          name: "PostPilot.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "An advanced **Full-Stack AI SaaS Application** offering multiple AI-powered tools to boost productivity and creativity. The Platform is build with React + Vite (Frontend), Node.js/Express (backend), and PostgreSQL (NeonDB)"
+            "PostPilot is a modern AI-powered social media management platform that enables creators, startups, agencies, and businesses to generate AI-powered content, create AI images, schedule posts, and publish across multiple social media platforms from one intuitive dashboard."
           ],
         },
         {
           id: 2,
-          name: "AI-Tools.com",
+          name: "postpilot.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://github.com/KunalxKushwaha/AI-Tools.git",
+          href: "https://post-pilot-roan-three.vercel.app",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "AI-Tools.png",
+          name: "PostPilot.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/AiSaas.png",
+          imageUrl: "/images/Post.png",
         },
         {
           id: 5,
@@ -276,7 +276,7 @@ const WORK_LOCATION = {
           icon: "/images/plain.png",
           kind: "file",
           fileType: "fig",
-          href: "https://google.com",
+          href: "https://github.com/KunalxKushwaha/PostPilot.git",
           position: "top-60 right-20",
         },
       ],
@@ -285,7 +285,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "Resume Builder",
+      name: "Resumate",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -293,7 +293,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Resume Builder Project.txt",
+          name: "Resume Builder.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -308,7 +308,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://github.com/KunalxKushwaha/Resume-Builder.git",
+          href: "https://resume-builder-chi-two-36.vercel.app",
           position: "top-20 left-20",
         },
         {
@@ -318,7 +318,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
+          imageUrl: "/images/Resumate.png",
         },
         {
           id: 5,
@@ -326,7 +326,7 @@ const WORK_LOCATION = {
           icon: "/images/plain.png",
           kind: "file",
           fileType: "fig",
-          href: "https://google.com",
+          href: "https://github.com/KunalxKushwaha/Resume-Builder.git",
           position: "top-60 left-5",
         },
       ],
@@ -335,7 +335,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Real Time Tracker",
+      name: "Loan Defaulter Predictor",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -343,32 +343,32 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Real Time Tracker.txt",
+          name: "Loan Default Predictor.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "A simple real-time location tracker built using Socket.IO, Leaflet.js, and HTML5 Geolocation API. This project allows multiple users to share and track each other's live location on an interactive map.",
+            "A simple ML based loan defaulter app build using XGBoost, sklearn Pipilines, RandomizedSearchCV which predicts whether a person is a loan defaulter or not based on various features. used streamlit to develop and design the UI and frontend of the application and for deployment.",
           ],
         },
         {
           id: 2,
-          name: "real-time-tracker.com",
+          name: "loan default predictor.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://github.com/KunalxKushwaha/RealTime-Tracker.git",
+          href: "https://loan-defaulter-kunalxkushwaha001.streamlit.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "real-time-tracker.png",
+          name: "loan-default-predictor.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/Tracker.jpg",
+          imageUrl: "/images/Loan.png",
         },
         {
           id: 5,
@@ -376,7 +376,7 @@ const WORK_LOCATION = {
           icon: "/images/plain.png",
           kind: "file",
           fileType: "fig",
-          href: "https://google.com",
+          href: "https://github.com/KunalxKushwaha/Loan-Defaulter.git",
           position: "top-60 right-20",
         },
       ],
